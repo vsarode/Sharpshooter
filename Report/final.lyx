@@ -1,0 +1,3296 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes true
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\author 5862402 "IT" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\color red
+WALCHAND COLLEGE OF ENGINEERING,SANGLI
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/it/Desktop/project/logo.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color red
+DEPARTMENT OF INFORMATION TECHNOLOGY
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Mini Project Report
+\end_layout
+
+\begin_layout Standard
+\align center
+on
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\color blue
+\begin_inset Quotes eld
+\end_inset
+
+ Performance Analysis 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\color blue
+of 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+\color blue
+Distance Vector Multicast Routing Protocol in Wireless Network
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 10pt
+\end_inset
+
+Submitted By,
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Group : 
+\color black
+'2'
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color black
+Mr.Abrar Shivani.(2011BIT069)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color black
+Miss.Suchita Joshi.(2011BIT023)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color black
+Mr.Vinayak Kadam.(2012BIT211)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Year of Submission : 2013-14
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Under the Valuable Guidence of,
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color blue
+Mrs.B.S.Shetty.
+\end_layout
+
+\begin_layout Standard
+\align center
+and
+\end_layout
+
+\begin_layout Standard
+\align center
+Head of the Department [Information Technologgy]
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color blue
+Dr.D.B.Kulkarni sir.
+\change_inserted 5862402 1385811106
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811154
+
+
+\backslash
+thispagestyle{empty}
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape slanted
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+\color red
+CERTIFICATE
+\change_inserted 5862402 1385811211
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 5862402 1385811212
+
+\series bold
+\color blue
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811212
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color black
+This is to certify that, the Mini Project report 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\color black
+entitled,
+\color inherit
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color blue
+\begin_inset Quotes eld
+\end_inset
+
+Performance Analysis of
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\color blue
+Distance Vector Multicast Routing Protocol in Wireless Network
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\noun on
+\color black
+Submitted by,
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\noun on
+\color black
+Mr.Abrar shivani(Roll No.2011BIT069)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\noun on
+\color black
+Miss.Suchita joshi(Roll No.2011BIT023)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\noun on
+\color black
+Mr.Vinayak Kadam(Roll No.2011Bit211)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\color black
+Is a bonafide record of their own work performed out by them in fulfillment
+ in first semester of Third Year degree in Information Technology as specified
+ in the curriculum prescribed by Walchand College of Engineering,Sangli.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size small
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series default
+\size default
+\color black
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\color black
+Mrs.B.S.Shetty 
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Dr.
+ D.
+ B.
+ Kulkarni
+\end_layout
+
+\begin_layout Standard
+
+\color black
+(Guide)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(HOD) 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape slanted
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape smallcaps
+\size large
+\color red
+ACKNOWLEDGEMENT
+\change_inserted 5862402 1385811216
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 5862402 1385811217
+
+\series bold
+\color blue
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811217
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\size default
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\size small
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+We feel immense pleasure in submitting this Mini Project report entitled
+ “Performance Analysis of Distance Vector Multicast Routing Protocol in
+ Wireless Network”.
+ We are thankful to our guide Mrs.Shirodkar mam for their valuable guidance
+ and kind help during completion of Mini Project and feel great to express
+ our sincere gratitude to other all staff members of IT Department.
+ We are also thankful to the Head of the 'Department of Information Technology'
+ Dr.
+ D.B.
+ Kulkarni Sir for their valuable guidance during the completition of Mini
+ Project.
+\series bold
+\size small
+\color inherit
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size small
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\color black
+Acknowledged by,
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\color black
+Mr.Abrar Shivani(Roll No.69)
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\color black
+Miss.Suchita Joshi(Roll No.23)
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\color black
+Mr.Vinayak Kadam(Roll No.83)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\change_inserted 5862402 1385811288
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 5862402 1385811289
+
+\series bold
+\color blue
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811289
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\change_inserted 5862402 1385811285
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\change_inserted 5862402 1385811225
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 5862402 1385811245
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811246
+
+
+\backslash
+setcounter{page}{1}
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+INTRODUCTION
+\end_layout
+
+\begin_layout Standard
+DVMRP is an "interior gateway protocol"; suitable for use within an autonomous
+ system, but not between different autonomous systems.
+ DVMRP is not currently developed for use in routing non-multicast datagrams,
+ so a router that routes both multicast and unicast datagrams must run two
+ separate routing processes.
+ DVMRP is designed to be easily extensible and could be extended to route
+ unicast datagrams.
+\end_layout
+
+\begin_layout Subsection
+Background
+\end_layout
+
+\begin_layout Standard
+A draft standard for multicasting over IP networks now exists, but no routing
+ protocols to support internetwork multicasting are available.DVMRP combines
+ many of the features of RIP with the Truncated Reverse Path Broadcasting
+ (TRPB) algorithm described by Deering.
+\end_layout
+
+\begin_layout Standard
+DVMRP was developed to experiment with the algorithms in Truncated Reverse
+ Path Broadcasting (TRPB) algorithm described by Deering.
+ RIP was used as the starting point for the development because an implementatio
+n was available and distance vector algorithms are simple, as compared to
+ link-state algorithms.
+ In addition, to allow experiments to traverse networks that do not support
+ multicasting, a mechanism called "tunneling" was developed.
+\end_layout
+
+\begin_layout Standard
+The multicast forwarding algorithm requires the building of trees based
+ on routing information.
+ This tree building needs more state information than RIP is designed to
+ provide, so DVMRP is much more complicated in some places than RIP.
+ A link-state algorithm, which already maintains much of the state needed,
+ might prove a better basis for Internet multicasting routing and forwarding.
+\end_layout
+
+\begin_layout Standard
+DVMRP differs from RIP in one very important way.
+ RIP thinks in terms of routing and forwarding datagrams to a particular
+ destination.
+ The purpose of DVMRP is to keep track of the return paths to the source
+ of multicast datagrams.
+ To make explanation of DVMRP more consistent with RIP, the word "destination"
+ is used instead of the more proper "source", but the reader must remember
+ that datagrams are not forwarded to these destinations, but originate from
+ them.
+ 
+\end_layout
+
+\begin_layout Subsection
+Objective,Scope & Applicability
+\end_layout
+
+\begin_layout Subsubsection
+Objective
+\end_layout
+
+\begin_layout Standard
+Conduct the performance analysis of Distance Vector Multicast Routing Protocol.
+\end_layout
+
+\begin_layout Subsubsection
+Scope
+\end_layout
+
+\begin_layout Standard
+The scope of Project is restricted to carrying out the simulations of diffrent
+ wireless network scenarios on the simulator like ns2 or Exata Cyber.Based
+ on the result of simulation we have carried out on the determine whether
+ we should use this protocol or not in the wireless network.
+\end_layout
+
+\begin_layout Subsubsection
+Applicability
+\end_layout
+
+\begin_layout Standard
+This Project is applicable to mobile networks which are are having group
+ of nodes communicating i.e they are sending messages to whole group at a
+ time such as news letter.
+\end_layout
+
+\begin_layout Subsection
+Project Overview
+\end_layout
+
+\begin_layout Standard
+In this project we are analyzing performance of the network with DVMRP using
+ the ExataCyber new era Simulation Tool.
+\end_layout
+
+\begin_layout Standard
+- We are creating different types of scenario and generating various graphs
+ 
+\end_layout
+
+\begin_layout Standard
+- We are creating scenarios with different number of nodes.
+ 
+\end_layout
+
+\begin_layout Standard
+- Then according to certain parameters such jitter,delay we comapre each
+ scenario with each other and determine in which scenario the DVMRP works
+ the best.
+\end_layout
+
+\begin_layout Subsection
+Background Knowledge about Topic
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+1) Why Network Simulation?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Network simulators attempt to model real world networks.
+ The idea being that if a system can be modeled, then features of the model
+ can be changed and the results analyzed.
+ As the process of model modification is relatively cheap then a wide variety
+ of scenarios can be analyzed at low cost (relative to making changes to
+ a real network).
+\end_layout
+
+\begin_layout Standard
+One word of warning.
+ Network simulators are not perfect.
+ They will NOT perfectly model your network.
+ They will, however, be close enough to give you meaningful insight into
+ how your network is working, and how changes will effect its operation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\series bold
+ Types of simulation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.Discrete Event Simulaton : Discrete event simulation is suitable for problems
+ in which variables change in discrete times and by discrete steps.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.Continious Event Simulation : Continuous simulation is suitable for systems
+ in which the variables can change continuously.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_deleted 5862402 1385811429
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Section
+SURVEY OF TEHNOLOGIES
+\end_layout
+
+\begin_layout Subsection
+Tools Available
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Languages Available : 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- C Librare
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- C++
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- TCL
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\begin_inset VSpace 10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Tools Available :
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- NS2
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- OpenFlow
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- EXataCyber, QualNet
+\end_layout
+
+\begin_layout Subsection
+Tools Used
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Exata 
+\size small
+Cyber
+\size default
+ :
+\series medium
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+EXata/Cyber is a toolkit for research and development, test and evaluation,
+ and training of cyber warfare technologies.
+ It uses a software virtual network (SVN) to digitally represent the entire
+ network, the various protocol layers, antennas, and devices.
+ EXATA_HOME can interoperate, at one or more protocol layers, with real
+ radios and devices to provide hardware-in-the-loop capabilities.
+ EXata/Cyber can also be connected to systems with real applications, which
+ run on the SVN just as they would run on real networks.
+\end_layout
+
+\begin_layout Subsubsection
+
+\size small
+Emulation and Simulation :
+\series medium
+\size default
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+A network emulator mimics the functions of a real network so that it appears,
+ interacts, and behaves like the real network.
+ The emulator provides an exact, high quality, reproduction of external
+ behavior so that the emulated system is indistinguishable from the real
+ system.
+ An emulator provides a cost-effective method of evaluating new network
+ technologies before actual systems or networks are built.
+\end_layout
+
+\begin_layout Subsection
+EXata/Cyber Architect :
+\series medium
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+\size normal
+A graphical experiment design and visualization tool.
+ Architect has two modes: Design mode, for designing experiments, and Visualize
+ mode, for running and visualizing experiments.A network simulator duplicates
+ the behavior of a real network, but cannot interact with real networks.
+ A simulator uses lower quality reproduction or abstraction of the real
+ system and focuses on simply replicating the real network’s behavior.
+ A network simulation is a cost-effective method for developing the early
+ stages of network centric systems.
+ Users can evaluate the basic behavior of a network and test combinations
+ of network features that are likely to work.
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+Network emulation helps in developing a net-centric system by providing
+ an environment in which design decisions can be easily changed and their
+ impact evaluated.
+ Customers of the net-centric system can use the emulated network and see
+ how their applications (such as VoIP, situational awareness, sensor data,
+ and streaming video) will perform when the real system is built.
+ The emulated network can also be integrated with legacy systems to test
+ interoperability and be used to train users on the next generation networks.
+ By evaluating what works best early in the design cycle, the cost of modifying
+ a system can be greatly reduced.
+ This also sets realistic expectations of what the communications network
+ will deliver, i.e., it provides predictability.
+ The emulation capabilities of EXata/Cyber can be used to create and modify
+ attacks and counter measures.
+ Attacks can be targeted on specialized networks, such as wireless, wired,
+ mobile ad-hoc (MANET), and tactical networks.
+ Users can then analyze the impact of attacks and counter-measures on the
+ network itself, applications, and end-users.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+EXata/Cyber is composed of the following tools: 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+- EXata/Cyber Analyzer — A graphical statistics analyzing tool.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+- EXata/Cyber Packet Tracer — A graphical tool to display and analyze packet
+ traces.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+- EXata/Cyber File Editor — A text editing tool.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+EXata/Cyber Features and Benefits
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+EXata/Cyber is a comprehensive suite of tools for emulating large wired
+ and wireless networks.
+ It uses simulation and emulation to predict the behavior and performance
+ of networks to improve their design, operation, and management.
+ EXata/Cyber SVN provides a cost-effective and easy-to-use alternative to
+ physical testbeds that typically have high equipment costs, complex setup
+ requirements and limited scalability.
+\begin_inset VSpace smallskip
+\end_inset
+
+EXata/Cyber enables users to:-
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+- Develop, test and evaluate, and train users on cyber warfare and network
+ security technologies.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+- Develop emulation or simulation models for new networking technologies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Connect real networks, applications, and devices with EXata/Cyber emulated
+ network.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Analyze and manage EXata/Cyber virtual networks with popular, industry-standar
+d, tools.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Research and develop new methods of attacks, counter measures, and intrusion
+ detection.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Improve capabilities of existing network intrusion detection tools, such
+ as Snort, against new types of attacks.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Study the effectiveness of counter-measures against new or existing cyber
+ threats.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Train users on network security tools and procedures on isolated and quarantin
+ed environment modeled as software virtual networks.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Incorporate cyber warfare exercises into conventional war-gaming exercises
+ with other SAF/CGF simulations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Design new network technologies: Design new communications protocol models
+ using the OSI-style architecture of EXata/Cyber protocol stack.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Design wireless networks of real world size: EXata/Cyber can be run on
+ multi-core processor computers to evaluate large wireless networks of 100s
+ and 1000s of devices.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Perform what-if analyses: Analyze the performance of networks and perform
+ “what-if” analyses to optimize them.
+ You can design a network, and then run batch experiments to test network
+ performance when parameters, such as routing protocols, timers, and transmissio
+n power, are varied.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- See real applications run on emulated networks: EXata/Cyber can run real
+ applications, such as VoIP, Internet browsers, and streaming video, on
+ emulated networks as if they are running on real networks.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Train with the network before it is ready to be deployed: EXata/Cyber
+ makes it possible to conduct training and operations with next-generation
+ tactical networks and devices that are still being designed.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Snoop on packets: EXata/Cyber has a packet sniffer interface that enables
+ third-party tools like Wireshark and Microsoft Network Monitor to snoop/capture
+ traffic from any device in EXata/Cyber and analyze it.
+ This lets you debug and troubleshoot network problems.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Manage an emulated network: EXata/Cyber comes with a SNMP Agent, which
+ enables you to use standard SNMP managers to view, monitor and control
+ emulated networks in EXata/Cyber just like managing real networks.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The key features of EXata/Cyber that enable creating a virtual network environme
+nt are: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series bold
+Speed 
+\series default
+: EXata/Cyber can support real-time speed to enable software-in-the-loop,
+ network emulation, and hardware-in-the-loop modeling.
+ Faster speed enables model developers and network designers to run multiple
+ “what-if” analyses by varying model, network, and traffic parameters in
+ a short time.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series bold
+Scalability
+\series default
+ : EXata/Cyber can model thousands of nodes by taking advantage of the latest
+ hardware and parallel computing techniques.
+ EXata/Cyber can run on cluster, multi-core, and multi-processor systems
+ to model large networks with high fidelity.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series bold
+Model Fidelity
+\series default
+ : EXata/Cyber uses highly detailed standards-based implementation of protocol
+ models.
+ It also includes advanced models for the wireless environment to enable
+ more accurate modeling of real-world networks.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series bold
+Portability
+\series default
+ : EXata/Cyber and its library of models run on a vast array of platforms,
+ including Windows and Linux operating systems, distributed and cluster
+ parallel architectures, and both 32- and 64-bit computing platforms.
+ Users can now develop a protocol model or design a network in EXata/Cyber
+ on their desktop or laptop Windows computer and then transfer it to a powerful
+ multi-processor Linux server to run capacity, performance, and scalability
+ analyses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\series bold
+Extensibility
+\series default
+ : EXata/Cyber can connect to other hardware and software applications,
+ such as OTB, real networks, and third party visualization software, to
+ greatly enhancing the value of the network model.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+EXata/Cyber 
+\size normal
+Architecture
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Project DVMRP/Exata Architecture.png
+	width 50page%
+	height 25pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+EXata/Cyber Simulation Kernel 
+\series medium
+:
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+The simulation kernel of EXata/Cyber is a parallel discrete-event scheduler.
+ It provides the scalability and portability to run hundreds and thousands
+ of nodes with high-fidelity models on a variety of platforms, from laptops
+ and desktops to high performance computing systems.
+ Users do not directly interact with the kernel, but use the EXata/Cyber
+ API to develop their protocol models.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+EXata/Cyber Emulation Kernel
+\series medium
+ :
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+The emulation kernel of EXata/Cyber is a high-fidelity, real-time interface
+ to connect the modeled network with external real applications and hardware.
+ The core of the emulation kernel is a real-time event scheduler that processes
+ the internal EXata/Cyber events, as well as the events from external sources,
+ with real time deadlines.
+ It also provides a transparent interface to the real-world applications
+ and hardware such that the latter can access any emulated network resource
+ as if it exists physically.
+ Users do not directly interact with the kernel, but use the Connection
+ Manager or interfaces such as SNMP, Packet Sniffing interfaces to connect
+ the real applications and hardware with the emulated network.
+ The EXata/Cyber emulation kernel is enabled by default and it can be disabled
+ to run EXata/Cyber in simulation mode.
+ In simulation mode, EXata/Cyber runs as fast as possible (non-real time
+ mode).
+ Simulation mode is useful for creating and validating scenarios: both for
+ network performance analyses and for potential subsequent use in emulation.
+ In simulation mode, all emulation features (Connection Manager, SNMP and
+ Packet Sniffing Interfaces, Hardware/Software in-the-loop) are disabled.
+\end_layout
+
+\begin_layout Subsubsection
+EXata/Cyber Model Libraries
+\series medium
+ : 
+\end_layout
+
+\begin_layout Paragraph
+
+\series medium
+EXata/Cyber supports a number of model libraries that enable you to design
+ networks using various protocol models.
+ EXata/Cyber includes the Cyber, Developer, Multimedia and Enterprise, and
+ Wireless Model Libraries.
+ Additional libraries to model cellular networks, satellite networks, UMTS,
+ WiMAX, sensor networks, military radio networks, and advanced propagation
+ model libraries are also available.
+ Refer to the EXata/Cyber Model Libraries data sheet for more information
+ or check the products page on our website.
+\end_layout
+
+\begin_layout Subsubsection
+EXata/Cyber Graphical User Interface (GUI) :
+\end_layout
+
+\begin_layout Standard
+EXata/Cyber GUI consists of Architect, Analyzer, Packet Tracer, and File
+ Editor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Architect
+\series default
+ is a network design and visualization tool.
+ It has two modes: Design mode and Visualize mode.
+ In Design mode, you can set up terrain, network connections, subnets, mobility
+ patterns of wireless users, and other functional parameters of network
+ nodes.
+ You can create network models by using intuitive, click and drag operations.
+ You can also customize the protocol stack of any of the nodes.
+ You can also specify the application layer traffic and services that run
+ on the network.
+ In Visualize mode, you can perform in-depth visualization and analysis
+ of a network scenario designed in Design mode.
+ As simulations are running, users can watch packets at various layers flow
+ through the network and view dynamic graphs of critical performance metrics.
+ Real-time statistics are also an option, where you can view dynamic graphs
+ while a network scenario simulation is running.You can also assign jobs
+ to run in batch mode on a faster server and view the animated data later.
+ You can perform “what-if” analysis by setting a range of values for a particula
+r protocol parameter and comparing the network performance results for each
+ of them.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Analyzer
+\series default
+ is a statistical graphing tool that displays hundreds of metrics collected
+ during simulation of a network scenario.
+ You can choose to see pre-designed reports or customize graphs with their
+ own statistics.
+ Multi-experiment reports are also available.
+ All statistics are exportable to spreadsheets in CSV format.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Packet Tracer
+\series default
+ provides a visual representation of packet trace files generated during
+ the simulation of a network scenario.
+ Trace files are text files in XML format that contain information about
+ packets as they move up and down the protocol stack.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+File Editor
+\series default
+ is a text editing tool that displays the contents of the selected file
+ in text format and allows the user to edit files.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+EXata/Cyber Connection Manager
+\series default
+ : 
+\end_layout
+
+\begin_layout Standard
+EXata/Cyber Connection Manager is the companion module of the main EXata/Cyber
+ emulation engine.
+ The EXata/Cyber emulation engine creates a digital replica of the target
+ network, and EXata/Cyber Connection Manager is used to run applications
+ on the emulated network.
+ The Connection Manager makes EXata/Cyber advanced emulation technology
+ easy and simple to use.
+ Applications need no modification or customization to use the realistic
+ emulated network in EXata/Cyber.
+\end_layout
+
+\begin_layout Standard
+Connection Manager supports a large variety of applications such as: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Internet browsers
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Tactical communications 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Situational awareness information 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Sensor data 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Instant messaging 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•VoIP
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Streaming video 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+•Multiplayer games 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Scenario-based Network Emulation :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In EXata/Cyber, a specific network topology is referred to as a scenario.
+ A scenario allows the user to specify all the network components and conditions
+ under which the network will operate.
+ This includes: terrain details, channel propagation effects including path
+ loss, fading, and shadowing, wired and wireless subnets, network devices
+ such as switches, hubs and routers, the entire protocol stack of a variety
+ of standard or user-configured network components, and applications running
+ on the network.
+ Most of these are optional; you can start with a basic network scenario
+ and specify as much detail as necessary to improve the accuracy of your
+ network model.
+\end_layout
+
+\begin_layout Standard
+General Approach In general, an emulation study comprises the following
+ phases: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- The first phase is to create and prepare the simulation scenario based
+ on the system description and metrics of interest.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- The second phase is to configure the emulation test-bed.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- The next step is to execute, visualize, and analyze the created scenario
+ and collect simulation results.
+ Simulation results can include scenario animations, runtime statistics,
+ final statistics, and output traces.
+ Chapter 6 describes how to visualize scenarios at run time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Concurrently, external applications and hardware can interact with a scenario
+ at run time.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- The last phase is to analyze the simulation results.
+ Typically, users may need to adjust the scenarios based on the collected
+ simulation results.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Creating Scenarios Creating a scenario can be divided into several steps
+ focusing on different aspects.
+ The key steps in creating a simulation scenario for EXata/Cyber are illustrated
+ in Figure.
+ The general approach is to first configure the general properties which
+ are applicable to the whole scenario.
+ Next, specify the network topology by creating subnets, placing nodes,
+ and defining node mobility.
+ Then one needs to configure the protocol stack for individual nodes or
+ groups of nodes as necessary.
+ The last step is to configure parameters for collecting simulation results
+ and controlling runtime performance.
+ Files Associated with a Scenario Input to the EXata/Cyber simulator consists
+ of several files.
+ For the command line interface, the input files are text files.
+ The main input files for command line are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Scenario configuration file: This is the primary input file for EXata/Cyber
+ and specifies the network scenario and parameters for the simulation.
+ This file usually has the extension “.config”.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Node placement file: This file is referenced by the scenario configuration
+ file and specifies the initial position of nodes in the scenario.
+ (The node placement file may also contain the future positions of nodes.)
+ This file usually has the extension “.nodes”.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+- Application configuration file: This file is referenced by the scenario
+ configuration file and specifies the applications running on the nodes
+ in the scenario.
+ This file usually has the extension “.app”.
+ 
+\end_layout
+
+\begin_layout Section
+RESULTS AND ANALYSIS
+\end_layout
+
+\begin_layout Subsection
+Analysis
+\end_layout
+
+\begin_layout Itemize
+Average Multicast Delay 
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385811873
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/average delay multicast.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385811856
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811863
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385811877
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811884
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/average delay multicast.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385811886
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811890
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385811893
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811898
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/avearge delay multicast(seconds).png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Decreases with respect to no.
+ of nodes
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis : Average delay multicast in seconds
+\change_inserted 5862402 1385811916
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811908
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811913
+
+
+\backslash
+newpage
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+Control packets sent
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385811922
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811927
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/control packets sent multicast.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385811933
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811943
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385811946
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811951
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/Control Packet sent Multicast.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385811954
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811958
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385811960
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811965
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/control packets sent multicast.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As nodes increases per node control packets gets reduced.
+ Total number of packets remains same.
+ 
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis : Control packets sent multicast in number of packets
+\change_inserted 5862402 1385811969
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811973
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811976
+
+
+\backslash
+newpage
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+Data packets sent
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385811981
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811985
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/data packet sent multicast.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385811988
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385811994
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385811995
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812000
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/data Packet Sent (Packets ) multicast.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812002
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812007
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385812008
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812012
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/data packet sent multicast packets.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As number of nodes increases data dropping increases and delivery decreases.
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis :Data packets sent multicast in number of packets
+\change_inserted 5862402 1385812015
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812018
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385812027
+
+
+\backslash
+newpage
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+Multicast Packets dropped due to no route
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385812031
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812037
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/multicast packets dropped due to no route.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812040
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812044
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385812047
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812051
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/packet dropped dure to no route.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812052
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812056
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385812057
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812062
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/packets dropped due to no route.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812064
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812069
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis :Packets dropped due to no route of packets
+\change_inserted 5862402 1385812082
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812086
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385812089
+
+
+\backslash
+newpage
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+Packets Sent
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385812071
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812077
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/packets sent.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812093
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812097
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385812098
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812103
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/Packets sent.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812104
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812111
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385812114
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812118
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/Packets sent.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812122
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812125
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis : Packets sent
+\change_inserted 5862402 1385812128
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812131
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385812134
+
+
+\backslash
+newpage
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Itemize
+Packets Received
+\end_layout
+
+\begin_layout Standard
+25 nodes
+\change_inserted 5862402 1385812140
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812153
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/25nodesn/packets recv.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812156
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812161
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+50 nodes
+\change_inserted 5862402 1385812164
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812169
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/50nodes/Packet Received.png
+	width 80page%
+	height 25pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812171
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812181
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+75 nodes
+\change_inserted 5862402 1385812183
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812188
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename graph/75nodes/Packets rev.png
+	width 50page%
+	height 50pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\change_inserted 5862402 1385812190
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 5862402 1385812195
+\begin_inset VSpace defskip
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+X-axis : Node Id
+\end_layout
+
+\begin_layout Standard
+Y-axis : Packets received
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Thus, In our project we have evaluated the Performance analysis of Distance
+ Vector Multicast Routing Protocol by creating 3 scenario by considering
+ 25 nodes,50 nodes and 75 nodes by using different parameters such as dropped
+ , delay etc.
+\end_layout
+
+\begin_layout Standard
+From the investigation, it can be concluded that distance vector multicast
+ routing protocols are not suitable for mobile ad-hoc networks (MANETs),
+ because of their huge routing overheads.
+ As the no.
+ of nodes get increases the control traffic gets stable at some rate and
+ data packet delivery will decrease as we increase no of nodes .
+ Packet dropping will be increased as we increase the number of nodes.
+ It was concluded that there is trade-off between number of dropped packet
+ and delay.
+ If the number of dropped packets was decreased with the help of buffer,
+ then average delay will increase.
+\change_inserted 5862402 1385811555
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\change_inserted 5862402 1385811557
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 5862402 1385811557
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Section
+REFERENCES
+\end_layout
+
+\begin_layout Paragraph
+1.http://www.ietf.org/rfc/rfc1075.txt
+\end_layout
+
+\begin_layout Paragraph
+2.web.scalable-networks.com/content/exatacyber
+\end_layout
+
+\begin_layout Paragraph
+3.Exata Cyber Documentation User guide And Programmers guide
+\end_layout
+
+\end_body
+\end_document
