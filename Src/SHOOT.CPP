@@ -663,3 +663,4 @@ void restrictmouseptr(int x1,int y1,int x2,int y2)
   i.x.dx=y2;
   int86(0x33,&i,&o);
 }
+//Datta ikhe
